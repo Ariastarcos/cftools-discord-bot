@@ -2,8 +2,7 @@ const { stripIndents } = require('common-tags/lib');
 const {
   msToHumanReadableTime, titleCase, colorResolver
 } = require('../util');
-const { createHitZonesHeatMap } = require('./heatmap');
-const { AttachmentBuilder } = require('discord.js');
+// const { createHitZonesHeatMap } = require('./heatmap');
 
 /**
  * @param {import('cftools-sdk').Player} data
@@ -22,8 +21,8 @@ const playerStatisticsCtx = async (cfg, data) => {
       kills,
       longestKill,
       longestShot,
-      weapons,
-      zones
+      weapons
+      // zones
     } }
   } = data;
   const averagePlaytimePerSession = Math.round(playtime / sessions);
@@ -42,13 +41,13 @@ const playerStatisticsCtx = async (cfg, data) => {
   // Reversing the name history array so the latest used name is the first item
   names.reverse();
 
-  // Generate hit zone image
+  // Generate hit zone image - TEMPORARILY DISABLED
   const files = [];
-  if (cfg.STATISTICS_INCLUDE_ZONES_HEATMAP) {
-    const hitZoneHeatMapImg = await createHitZonesHeatMap(cfg, zones);
-    const file = new AttachmentBuilder(Buffer.from(hitZoneHeatMapImg.buffer)).setName('heatmap.png');
-    files.push(file);
-  }
+  // if (cfg.STATISTICS_INCLUDE_ZONES_HEATMAP) {
+  //   const hitZoneHeatMapImg = await createHitZonesHeatMap(cfg, zones);
+  //   const file = new AttachmentBuilder(Buffer.from(hitZoneHeatMapImg.buffer)).setName('heatmap.png');
+  //   files.push(file);
+  // }
 
   return {
     files,
