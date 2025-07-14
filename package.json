@@ -36,7 +36,7 @@
     "@discordjs/rest": "2.0.0",
     "@discordjs/ws": "1.0.0",
     "@mirasaki/logger": "^1.0.5",
-    "cftools-sdk": "^3.1.7",
+    "cftools-sdk": "^3.5.0",
     "common-tags": "^1.8.2",
     "discord.js": "14.12.1",
     "dotenv": "^17.1.0",
