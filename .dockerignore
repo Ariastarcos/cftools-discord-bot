@@ -3,7 +3,6 @@
 *.env
 .env.example
 Procfile
-release.config.js
 
 # NPM & dependencies
 node_modules
