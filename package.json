@@ -34,12 +34,12 @@
   },
   "dependencies": {
     "@discordjs/rest": "2.0.0",
-    "@discordjs/ws": "1.0.0",
+    "@discordjs/ws": "2.0.3",
+    "cftools-sdk": "^3.5.0",
     "@mirasaki/logger": "file:./vendor/@mirasaki/logger",
-    "cftools-sdk": "^3.1.7",
     "common-tags": "^1.8.2",
     "discord.js": "14.12.1",
-    "dotenv": "^16.4.2",
+    "dotenv": "^17.2.1",
     "express": "^4.18.2",
     "lokijs": "^1.5.12"
   },
@@ -47,8 +47,8 @@
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.56.0",
-    "eslint-plugin-sonarjs": "^0.23.0",
-    "nodemon": "^3.0.3"
+    "eslint-plugin-sonarjs": "^3.0.4",
+    "nodemon": "^3.1.10",
   },
   "repository": {
     "type": "git",
