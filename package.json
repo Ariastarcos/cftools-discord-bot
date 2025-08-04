@@ -1,7 +1,7 @@
 {
   "name": "cftools-discord-bot",
   "description": "A discord bot template using discord.js",
-  "version": "1.10.0",
+  "version": "1.10.1",
   "main": "src/index.js",
   "scripts": {
     "start": "node .",
@@ -35,29 +35,20 @@
   "dependencies": {
     "@discordjs/rest": "2.0.0",
     "@discordjs/ws": "2.0.3",
-    "@mirasaki/logger": "^1.0.5",
     "cftools-sdk": "^3.5.0",
+    "@mirasaki/logger": "file:./vendor/@mirasaki/logger",
     "common-tags": "^1.8.2",
     "discord.js": "14.12.1",
     "dotenv": "^17.2.1",
     "express": "^4.18.2",
-    "heatmap.js": "^2.0.5",
-    "lokijs": "^1.5.12",
-    "puppeteer": "^21.7.0"
+    "lokijs": "^1.5.12"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/commit-analyzer": "^11.1.0",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^9.2.6",
-    "@semantic-release/npm": "^11.0.1",
-    "@semantic-release/release-notes-generator": "^12.1.0",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.56.0",
     "eslint-plugin-sonarjs": "^3.0.4",
     "nodemon": "^3.1.10",
-    "semantic-release": "^23.0.2"
   },
   "repository": {
     "type": "git",

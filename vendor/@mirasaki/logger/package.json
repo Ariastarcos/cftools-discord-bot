@@ -1,0 +1,10 @@
+{
+  "name": "@mirasaki/logger",
+  "version": "1.0.5",
+  "description": "[removed] My first NPM package with logging functions I use in most of my personal projects.",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "moment": "^2.29.3"
+  }
+}
