@@ -5,7 +5,6 @@
 <div align='center'>
 
   ![build](https://img.shields.io/github/actions/workflow/status/mirasaki/cftools-discord-bot/test.yml)
-  [![CodeFactor](https://www.codefactor.io/repository/github/Mirasaki/cftools-discord-bot/badge)](https://www.codefactor.io/repository/github/Mirasaki/cftools-discord-bot)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ![Docker Pulls](https://img.shields.io/docker/pulls/mirasaki/cftools-discord-bot)
   ![version](https://img.shields.io/github/v/release/Mirasaki/cftools-discord-bot)
