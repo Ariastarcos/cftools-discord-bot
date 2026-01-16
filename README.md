@@ -81,7 +81,7 @@
 
 <h2 id="installation">🔨 Installation</h2>
 
-Check out [the wiki for this project](https://wiki.mirasaki.dev/docs/cftools-discord-bot) to learn how to configure and run this bot
+Check out [the wiki for this project](https://mirasaki.dev/docs/cftools/discord-bot) to learn how to configure and run this bot
 
 > Open source, self-hosted, and MIT licensed, meaning you're in full control.
 
