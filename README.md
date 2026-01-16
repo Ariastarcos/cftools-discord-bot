@@ -79,10 +79,6 @@
 - Manage Whitelists
 - Custom GameLab action support
 
-<h2 id="hosting">🖥️ Hosting</h2>
-
-We have partnered with [VYKIX.com](https://portal.vykix.com/aff.php?aff=17) after observing many of our clients using VYKIX services and products. Check them out for affordable and reliable hosting, they bring the **best DayZ hosting experience possible.** 📈
-
 <h2 id="installation">🔨 Installation</h2>
 
 Check out [the wiki for this project](https://wiki.mirasaki.dev/docs/cftools-discord-bot) to learn how to configure and run this bot
